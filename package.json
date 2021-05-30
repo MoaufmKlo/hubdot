@@ -1,0 +1,24 @@
+{
+    "name": "hubdot",
+    "version": "1.0.0",
+    "description": "The official Node.js module for interacting with the hubdot API.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MoaufmKlo/hubdot.git"
+    },
+    "keywords": [
+        "hubdot",
+        "roblox",
+        "hub"
+    ],
+    "author": "MoaufmKlo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MoaufmKlo/hubdot/issues"
+    },
+    "homepage": "https://github.com/MoaufmKlo/hubdot#readme",
+    "dependencies": {
+        "got": "^11.8.2"
+    }
+}
