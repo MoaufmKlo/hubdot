@@ -1,7 +1,7 @@
 <div align="center">
     <h1>hubdot</h1>
-    <img alt="npm Version" src="https://img.shields.io/npm/v/hubdot">
-    <img alt="npm Downloads" src="https://img.shields.io/npm/dw/hubdot">
+    <img alt="npm Version" src="https://img.shields.io/npm/v/hubdot?style=for-the-badge">
+    <img alt="npm Downloads" src="https://img.shields.io/npm/dw/hubdot?style=for-the-badge">
     <br>
 </div>
 
@@ -34,12 +34,8 @@ const api = new hubdot({
     "apiToken": "abcDeFgHijKlMnOpQrSUvWxYz"
 });
 
-api.fetchUser("904239813299").then((user) => {
-    if (user.hasLicense) {
-        console.log("The user owns hubdot!");
-    } else {
-        console.log("The user does not own hubdot!");
-    }
+api.fetchUser("348853688179359746", "discord").then((user) => {
+    console.log(user.robloxUserId); // 79291163
 });
 ```
 
