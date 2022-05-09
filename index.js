@@ -199,3 +199,5 @@ class hubdot {
 }
 
 module.exports = hubdot;
+
+console.log("Hubdot Server: https://discord.gg/XVqmUKzE")
